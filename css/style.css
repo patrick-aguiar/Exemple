@@ -1,0 +1,115 @@
+/************************************************************* TAG SELECTORS *************************************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", verdana;
+  line-height: 3;
+  font-weight: 600;
+
+}
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+hr {
+  border-style: dotted none none none;
+  width: 4%;
+  border-color: #80808059;
+  border-width: 6px;
+}
+
+/************************************************************* CLASS SELECTORS *************************************************************/
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.subtitle {
+  margin-top: 0;
+  font-weight: normal;
+  line-height: 2px;
+}
+.top-container {
+  background-color: #e4f6f5;
+}
+.profile-photo {
+  border-radius: 50%;
+  margin: 65px 0 0 0;
+}
+.skills-photo {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin: 0 30px 0px 0px;
+}
+.skills-photo2 {
+  border-radius: 50%;
+  width: 12.5em;
+  float: right;
+  margin: 0 0 0 30px;
+}
+.middle-container {
+}
+.bottom-container {
+  background-color: #66bfbf;
+  position: relative;
+  top: 16px;
+  padding: 50px 0 0;
+}
+.bottom-container > p {
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+  padding: 16px 0 60px 0;
+}
+
+.web {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+}
+.top-cloud {
+  left: 380px;
+  position: relative;
+  top: 40px;
+}
+.btn {
+  color: white;
+}
+.btn-div {
+  padding: 0px 25px 0px 25px;
+  width: 9rem;
+  margin: 40px;
+  font-weight: 500;
+  font-size: 1.3em;
+  border: 1px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #11999e;
+}
+
+.footer-link {
+  margin: 50px;
+  color: #11999e;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
